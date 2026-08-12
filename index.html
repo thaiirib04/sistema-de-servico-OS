@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sistema de Manutenção</title>
+</head>
+<body>
+    <div class="container">
+        <header><h1>Registro de Ordens de Serviços</h1></header>
+        <section class="form-os">
+            <input type="text" id="cliente" placeholder="Nome do Cliente">
+            <input type="text" id="equipamento" placeholder="Equipamento">
+            <input type="number" id="valor" placeholder="Valor Bruto">
+            <button onclick="geradorOS()"> Abrir Ordem de Serviço</button>
+        </section>
+        <section id="painelOS" class="painelOS"></section>
+
+    </div>
+    <script src="/script.js"></script>
+   
+</body>
+</html>
