@@ -1,4 +1,3 @@
-console.log("javascript carregado!")
 class OrdemServico {
 
     constructor(cliente, equipamento, valorBruto) {
